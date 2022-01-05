@@ -25,6 +25,10 @@
   - Emoji keyboard is control+command+space
   - Set state with the updated array
 - As a user, if I select the winning square the question mark will become a treasure emoji.
+  - Branch: winning
+  - Added an treasureLocation to state
+  - Added a componentDidMount to set a random number to the treasureLocation
+  - Added conditional to the handleGamePlay to put a special emoji in the winning square
 - As a user, if I select the losing square the question mark will become a bomb emoji.
 - As a user, I can see a counter that shows how many guesses I have left. The counter starts at 5 and decrements one every time I click on a square that is not the treasure nor the bomb.
 - As a user, I can see a message informing me that I won the game if I select the square that contains the treasure.
